@@ -1,0 +1,23 @@
+eorion:
+  plugin:
+    enhancedjobexecutor:
+      enabled: true
+      enable-db-log: true
+      timeout-ms: 1000
+spring:
+  liquibase:
+    change-log: classpath:changelog/master-changelog.yaml
+    enabled: true
+camunda:
+  bpm:
+    database:
+      schema-update: false
+    job-execution:
+      enabled: true
+    generic-properties:
+      properties:
+        history-time-to-live: P365D
+        enforce-history-time-to-live: false
+logging:
+  level:
+    root: info
