@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.eorion.bo.plugin</groupId>
     <artifactId>enhanced-job-executor-spring-boot-starter</artifactId>
-    <version>1.0.0</version>
+    <version>0.0.1</version>
     <name>enhanced-job-executor-spring-boot-starter</name>
     <description>enhanced-job-executor-spring-boot-starter</description>
     <url>https://www.eorionsolution.com</url>
