@@ -7,8 +7,8 @@ For detail information about the Camunda plugin itself, please refer to [Enhance
 ## Installation
 
 > Tested Environment:
->* Camunda Platform 7 v7.22.0
->* Java 21
+>* Camunda Platform 7 v7.24.0
+>* Java 17
 
 This is a Springboot starter that could be involved in a Springboot application as the same as other starters.
 
@@ -18,7 +18,7 @@ For example, when using maven, you may add the following codes to the `pom.xml` 
 <dependency>
     <groupId>com.eorion.bo.plugin</groupId>
     <artifactId>enhanced-job-executor-spring-boot-starter</artifactId>
-  <version>1.0.0</version>
+  <version>${last-version}</version>
 </dependency>
 ```
 
